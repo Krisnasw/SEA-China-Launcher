@@ -1,5 +1,10 @@
 package id.luwakdev.cinalauncher;
 
+/**
+ *
+ * Gae Splash Screen Progress Bar Horizontal Soroe jancoeg -_-
+ */
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;

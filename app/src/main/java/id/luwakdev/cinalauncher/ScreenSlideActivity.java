@@ -7,11 +7,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class ScreenSlideActivity extends ActionBarActivity implements OnClickListener {
 
     ViewPager viewPager ;
-    Button buttonKiri, buttonKanan;
+    ImageView buttonKiri, buttonKanan;
     ViewPagerAdapter viewPagerAdapter ;
     int page = 0 ;
     Toolbar toolbar;
@@ -38,8 +39,8 @@ public class ScreenSlideActivity extends ActionBarActivity implements OnClickLis
 
     private void initComponentViews(){
         viewPager = (ViewPager) findViewById(R.id.viewPager);
-        buttonKiri = (Button) findViewById(R.id.buttonKiri);
-        buttonKanan = (Button) findViewById(R.id.buttonKanan);
+        buttonKiri = (ImageView) findViewById(R.id.buttonKiri);
+        buttonKanan = (ImageView) findViewById(R.id.buttonKanan);
 
     }
 
